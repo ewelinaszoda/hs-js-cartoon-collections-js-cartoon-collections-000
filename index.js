@@ -18,10 +18,9 @@ function longPlaneteerCalls(words) {
   for (let i = 0; i < words.length; i++) {
     if (words[i].length > 4) {
       return true;
-    } else {
-      return false;
-    }
+    } 
   }
+  return false;
 }
 
 // function findTheCheese(foods) {
@@ -45,5 +44,5 @@ function findTheCheese(food) {
       return food[i];
     }
   }
-  return 'no cheese!';
+  return "no cheese!";
 }
